@@ -1,9 +1,9 @@
 {
   "name": "nextwarm",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "nextjs utility",
   "main": "dist/index.cjs.js",
-  "types": "types/index.d.ts",
+  "types": "types/src/index.d.ts",
   "module": "dist/index.es.js",
   "repository": "git@github.com:warmbyte/nextwarm.git",
   "author": "adeyahya <adeyahyaprasetyo@gmail.com>",
