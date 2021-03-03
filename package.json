@@ -1,6 +1,6 @@
 {
   "name": "nextwarm",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "nextjs utility",
   "main": "./dist/index.cjs.js",
   "types": "./types/src/index.d.ts",
@@ -56,7 +56,6 @@
     "react-use": "^17.1.1"
   },
   "peerDependencies": {
-    "nextjs": "^0.0.3",
-    "react": "^17.0.1"
+    "react": ">=16.0.0"
   }
 }
