@@ -14,7 +14,7 @@ export const GAScript: React.FC<GAScriptProps> = ({ trackingID }) => {
       <script
         dangerouslySetInnerHTML={{
           __html: `
-              window.__ga_tracking_id = ${trackingID}
+              window.__ga_tracking_id = "${trackingID}"
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
