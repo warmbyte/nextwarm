@@ -1,6 +1,6 @@
 {
   "name": "nextwarm",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "nextjs utility",
   "main": "./dist/index.cjs.js",
   "types": "./types/src/index.d.ts",
@@ -8,7 +8,8 @@
   "files": [
     "dist",
     "types",
-    "*.js"
+    "*.js",
+    "*.js.map"
   ],
   "repository": "git@github.com:warmbyte/nextwarm.git",
   "author": "adeyahya <adeyahyaprasetyo@gmail.com>",
